@@ -1,21 +1,24 @@
-import logo from './logo.svg';
+import chiblee from './chiblee.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <img src={chiblee} className="App-logo" alt="logo"
+          style={{
+            width: 200,
+            height: 200,
+            borderRadius: 200 / 2
+          }}
+       />
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.twitch.tv/chiblee"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Test
+          @Chiblee
         </a>
       </header>
     </div>
